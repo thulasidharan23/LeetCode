@@ -7,7 +7,7 @@ class Solution {
         }
         return a;
     }
-    public int getSum(int a, int b) {
+    public int getSum(int a,int b){
         return Sum(a,b);
     }
 }
