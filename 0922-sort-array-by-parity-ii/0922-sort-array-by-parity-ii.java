@@ -11,13 +11,13 @@ class Solution {
                 odd.add(nums[i]);
             }
         }
-        int k=0,j=0;
+        
         for(int i=0;i<nums.length;i++){
             if(i%2==0){
-                ans[i]=even.get(k++);
+                ans[i]=even.get(i/2);
             }
             else{
-                ans[i]=odd.get(j++);
+                ans[i]=odd.get(i/2);
             }
         }
         return ans;
