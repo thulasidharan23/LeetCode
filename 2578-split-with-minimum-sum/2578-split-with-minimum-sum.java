@@ -18,7 +18,7 @@ class Solution {
                 odd=odd*10+lt.get(i);
             }
         }
-        int ans=odd+even;
-        return ans;
+        return ans=odd+even;
+        //return ans;
     }
 }
