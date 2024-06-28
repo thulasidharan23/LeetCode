@@ -1,13 +1,13 @@
 class Solution {
     public boolean increasingTriplet(int[] nums) {
-        int a=Integer.MAX_VALUE;
-        int b=Integer.MAX_VALUE;
+        int max1=Integer.MAX_VALUE;
+        int max2=Integer.MAX_VALUE;
         for(int num:nums){
-            if(num<=a){
-                a=num;
+            if(num<=max1){
+                max1=num;
             }
-            else if(num<=b){
-                b=num;
+            else if(num<=max2){
+                max2=num;
             }
             else{
                 return true;
