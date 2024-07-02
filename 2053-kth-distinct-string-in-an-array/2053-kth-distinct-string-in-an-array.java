@@ -20,8 +20,6 @@ class Solution {
         if(k>lt.size()){
             return "";
         }
-        
-            return lt.get(k-1).toString();
-
+        return lt.get(k-1);
     }
 }
